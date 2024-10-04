@@ -13,7 +13,7 @@
     "php": "^7.1 || ^8.0",
     "ext-ctype": "*",
     "ext-json": "*",
-    "symfony/event-dispatcher-contracts": "^1.1 || ^2.0"
+    "symfony/event-dispatcher-contracts": "^3"
   },
   "require-dev": {
     "phpcq/coding-standard": "^2.1",
