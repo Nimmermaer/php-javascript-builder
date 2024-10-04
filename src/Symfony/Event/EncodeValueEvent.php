@@ -12,14 +12,14 @@
 namespace Netzmacht\JavascriptBuilder\Symfony\Event;
 
 use Netzmacht\JavascriptBuilder\Encoder;
-use Symfony\Contracts\EventDispatcher\Event;
+use Symfony\Component\EventDispatcher\GenericEvent;
 
 /**
  * Class EncodeValueEvent is emitted when a value is being encoded.
  *
  * @package Netzmacht\JavascriptBuilder\Event
  */
-class EncodeValueEvent extends Event
+class EncodeValueEvent extends GenericEvent
 {
     const NAME = 'javascript-builder.encode-value';
 

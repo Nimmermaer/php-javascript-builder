@@ -12,14 +12,14 @@
 
 namespace Netzmacht\JavascriptBuilder\Symfony\Event;
 
-use Symfony\Contracts\EventDispatcher\Event;
+use Symfony\Component\EventDispatcher\GenericEvent;
 
 /**
  * Class GetObjectStackEvent is emitted then the object stack is requested to the event dispatcher encoder.
  *
  * @package Netzmacht\JavascriptBuilder\Symfony\Event
  */
-class GetObjectStackEvent extends Event
+class GetObjectStackEvent extends GenericEvent
 {
     const NAME = 'javascript-builder.get-object-stack';
 
